@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NuBank">
+
+    <include layout="@layout/toolbar_nubank"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Conta"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="3dp"
+        android:textSize="22sp"
+        android:text="R$69.000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:padding="18dp"
+            app:icon="@drawable/pix"
+            android:layout_gravity="center"
+            app:iconTint="@color/black"
+            android:layout_margin="7dp"
+            android:backgroundTint="#DCDCDC"
+            app:cornerRadius="50dp"/>
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:padding="18dp"
+            app:icon="@drawable/pay"
+            app:iconTint="@color/black"
+            android:layout_margin="7dp"
+            android:backgroundTint="#DCDCDC"
+            app:cornerRadius="50dp"/>
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:padding="18dp"
+            android:layout_margin="7dp"
+            android:backgroundTint="#DCDCDC"
+            app:iconTint="@color/black"
+            app:icon="@drawable/baseline_keyboard_arrow_up_24"
+            app:cornerRadius="50dp"/>
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:padding="18dp"
+            android:layout_margin="7dp"
+            android:backgroundTint="#DCDCDC"
+            app:iconTint="@color/black"
+            app:icon="@drawable/baseline_keyboard_arrow_down_24"
+            app:cornerRadius="50dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#DCDCDC"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            app:iconTint="@color/black"
+            app:icon="@drawable/baseline_credit_card_24"
+            android:text="Meus Cartões"
+            android:textColor="@color/black"
+            app:cornerRadius="7dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#DCDCDC"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/black"
+            android:text="Conheça Nubank Vida: um seguro simples e que cabe no bolso"
+            app:cornerRadius="7dp"/>
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:cornerRadius="50dp"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="left"
+            app:iconTint="@color/black"
+            app:icon="@drawable/baseline_credit_card_24"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cartão de Crédito"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="3dp"
+            android:textSize="15sp"
+            android:text="Fatura Atual"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="R$ 15.789"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textSize="13sp"
+            android:text="Limite disponível de R$ 32.450,00"/>
+
+    </LinearLayout>
+
+</LinearLayout>
