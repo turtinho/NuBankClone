@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ParaQuem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:text="Para quem você quer transferir R$689,56?"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Encontre um contato na sua lista ou inicie uma nova transferência"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="22sp"
+        android:hint="Nome, CPF/CNPJ ou chave Pix"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Contatos frequentes"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:padding="18dp"
+            app:icon="@drawable/person"
+            android:layout_gravity="center"
+            app:iconTint="@color/black"
+            android:layout_margin="7dp"
+            android:backgroundTint="#DCDCDC"
+            android:onClick="abrirTransferirindo"
+            app:cornerRadius="50dp"/>
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:padding="18dp"
+            app:icon="@drawable/person"
+            app:iconTint="@color/black"
+            android:layout_margin="7dp"
+            android:backgroundTint="#DCDCDC"
+            app:cornerRadius="50dp"/>
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:padding="18dp"
+            android:layout_margin="7dp"
+            android:backgroundTint="#DCDCDC"
+            app:iconTint="@color/black"
+            app:icon="@drawable/person"
+            app:cornerRadius="50dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="6dp"
+            android:text="Prof. Igor"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="3dp"
+            android:text="Prof. Luiz"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="3dp"
+            android:text="Prof. Talon"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Todos os contatos"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:padding="18dp"
+            app:icon="@drawable/person"
+            android:layout_gravity="center"
+            app:iconTint="@color/black"
+            android:layout_margin="7dp"
+            android:backgroundTint="#DCDCDC"
+            app:cornerRadius="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:text="Ciclano"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:padding="18dp"
+            app:icon="@drawable/person"
+            android:layout_gravity="center"
+            app:iconTint="@color/black"
+            android:layout_margin="7dp"
+            android:backgroundTint="#DCDCDC"
+            app:cornerRadius="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:text="Fulano"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:padding="18dp"
+            app:icon="@drawable/person"
+            android:layout_gravity="center"
+            app:iconTint="@color/black"
+            android:layout_margin="7dp"
+            android:backgroundTint="#DCDCDC"
+            app:cornerRadius="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:text="Beltrano"/>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

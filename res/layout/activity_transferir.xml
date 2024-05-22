@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Transferir">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:text="Qual é o valor da transferência?"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Saldo disponível em conta R$ 69.000,00"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="30sp"
+        android:hint="R$ 0,00"/>
+
+    <Button
+        android:layout_width="55dp"
+        android:layout_height="60dp"
+        android:padding="18dp"
+        app:icon="@drawable/seta_direita_nu"
+        app:iconTint="@color/black"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="470dp"
+        android:layout_gravity="right"
+        android:backgroundTint="#DCDCDC"
+        android:onClick="ParaQuem"
+        app:cornerRadius="50dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
